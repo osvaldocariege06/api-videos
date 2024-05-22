@@ -1,7 +1,7 @@
 
 
 
-POST http://localhost:3333/videos
+POST http://api-videos-ufud.onrender.com/videos
 Content-Type: application/json
 
 
@@ -13,17 +13,17 @@ Content-Type: application/json
 
 ###
 
-GET http://localhost:3333/videos
+GET http://api-videos-ufud.onrender.com/videos
 
 
 
 ###
-GET http://localhost:3333/videos/search?search=0
+GET http://api-videos-ufud.onrender.com/videos/search?search=0
 
 
 
 ###
-PUT  http://localhost:3333/videos/d96be055-e081-4f59-8092-20dc054d2701
+PUT  http://api-videos-ufud.onrender.com/videos/d96be055-e081-4f59-8092-20dc054d2701
 Content-Type: application/json
 
 {
@@ -35,5 +35,5 @@ Content-Type: application/json
 ###
 
 
-DELETE http://localhost:3333/videos/d96be055-e081-4f59-8092-20dc054d2701
+DELETE http://api-videos-ufud.onrender.com/videos/d96be055-e081-4f59-8092-20dc054d2701
 Content-Type: application/json
